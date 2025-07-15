@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kabul International Airport (KBL)</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('airport-bg.jpg') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px #000;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .flights {
+      padding: 40px;
+      background-color: #fff;
+    }
+
+    .flights h2 {
+      margin-bottom: 20px;
+      color: #003366;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Kabul Airport Logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Arrivals</a>
+      <a href="#">Departures</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    Welcome to Kabul International Airport (KBL)
+  </div>
+
+  <section class="flights">
+    <h2>Live Arrivals</h2>
+    <table>
+      <tr>
+        <th>Time</th>
+        <th>Flight</th>
+        <th>Origin</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>09:30</td>
+        <td>KBL 102</td>
+        <td>Dubai</td>
+        <td>On Time</td>
+      </tr>
+      <tr>
+        <td>11:15</td>
+        <td>KBL 205</td>
+        <td>Istanbul</td>
+        <td>Delayed</td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    &copy; 2025 Kabul International Airport | Designed with care
+  </footer>
+
+</body>
+</html>
